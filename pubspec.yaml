@@ -1,0 +1,31 @@
+name: crimson_eclipse_tileset_generator
+description: "Crimson Eclipse RPG Architect Tileset Generator - AI-powered pixel art tileset generation for RPG Maker MZ"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  http: ^1.2.2
+  image: ^4.3.0
+  file_picker: ^8.1.6
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.4
+  url_launcher: ^6.3.1
+  google_generative_ai: ^0.4.6
+  path: ^1.9.1
+  intl: ^0.19.0
+  collection: ^1.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
