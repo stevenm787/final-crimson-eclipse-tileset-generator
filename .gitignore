@@ -1,0 +1,33 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+build/
+*.iml
+.flutter-plugins
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+*.DS_Store
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# Linux
+linux/flutter/ephemeral/
+
+# Generated
+*.g.dart
+*.freezed.dart
